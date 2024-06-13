@@ -17,7 +17,7 @@ import lombok.ToString;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int idProduct;
+    Long idProduct;
     String description;
     double cost;
     int stock;
