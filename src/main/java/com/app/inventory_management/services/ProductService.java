@@ -1,6 +1,6 @@
 package com.app.inventory_management.services;
 
-import com.app.inventory_management.models.Product;
+import com.app.inventory_management.domain.Product;
 import com.app.inventory_management.repositories.IProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

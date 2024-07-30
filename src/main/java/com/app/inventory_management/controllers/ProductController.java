@@ -1,6 +1,6 @@
 package com.app.inventory_management.controllers;
 
-import com.app.inventory_management.models.Product;
+import com.app.inventory_management.domain.Product;
 import com.app.inventory_management.services.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 //http://localhost:8000/inventory-app
 @RequestMapping("/inventory-app")
-@CrossOrigin(value = "http://localhots:4200")
+@CrossOrigin(value = "http://localhost:4200")
 public class ProductController {
 
     private static final Logger logger = LoggerFactory.getLogger(ProductController.class);
