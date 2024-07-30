@@ -1,6 +1,6 @@
 package com.app.inventory_management.services;
 
-import com.app.inventory_management.models.Product;
+import com.app.inventory_management.domain.Product;
 import java.util.List;
 
 public interface IProductService {

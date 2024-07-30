@@ -1,6 +1,6 @@
 package com.app.inventory_management.controllers;
 
-import com.app.inventory_management.models.Product;
+import com.app.inventory_management.domain.Product;
 import com.app.inventory_management.services.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-//http://localhost:8000/inventory-app
+//http://localhost:8080/inventory-app
 @RequestMapping("/inventory-app")
 @CrossOrigin(value = "http://localhost:4200")
 public class ProductController {
@@ -23,7 +23,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    //http://localhost:8000/inventory-app/products
+    //http://localhost:8080/inventory-app/products
     @GetMapping("/products")
     public List<Product> getProducts() {
         List<Product> products = this.productService.listProducts();
