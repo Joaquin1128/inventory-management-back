@@ -1,6 +1,6 @@
 package com.app.inventory_management.controllers;
 
-import com.app.inventory_management.domain.Product;
+import com.app.inventory_management.models.Product;
 import com.app.inventory_management.services.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

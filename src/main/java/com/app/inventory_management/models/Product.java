@@ -1,4 +1,4 @@
-package com.app.inventory_management.domain;
+package com.app.inventory_management.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
